@@ -11,7 +11,7 @@ test:
 	pytest -v
 
 coverage:
-	pytest --cov=your_utils tests/
+	pytest --cov=quantum_trade_utilities tests/
 
 build:
 	python -m build

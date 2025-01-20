@@ -1,5 +1,5 @@
 import pytest
-from quantum_trade_utilities.propcase import propcase
+from quantum_trade_utilities import propcase
 
 def test_propcase():
     """Test basic text cleaning functionality"""
