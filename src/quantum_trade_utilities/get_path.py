@@ -5,7 +5,7 @@ import os
 import dotenv
 
 dotenv.load_dotenv()
-from hendricks._utils.detect_os import detect_os
+from quantum_trade_utilities.detect_os import detect_os
 
 
 def get_path(path_label: str):

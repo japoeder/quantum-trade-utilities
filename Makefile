@@ -1,13 +1,11 @@
 .PHONY: build publish test clean install-dev
 
-PYTHON := python3.11
-PIP := $(PYTHON) -m pip
+clean:
+	rm -rf dist/ build/ *.egg-info/
+	find . -type d -name __pycache__ -exec rm -rf {} +
 
-build:
-	$(PYTHON) -m build
-
-publish:
-	$(PYTHON) -m twine upload dist/*
+install-dev:
+	uv pip install -e ".[test]"
 
 test:
 	pytest -v
@@ -15,9 +13,8 @@ test:
 coverage:
 	pytest --cov=your_utils tests/
 
-clean:
-	rm -rf dist/ build/ *.egg-info/
-	find . -type d -name __pycache__ -exec rm -rf {} +
+build:
+	python -m build
 
-install-dev:
-	$(PIP) install -e ".[test]"
+publish:
+	python -m twine upload dist/*
