@@ -1,2 +1,2 @@
-# quantum-trade-utilities
+# qt_utilities
 Hello, World!
