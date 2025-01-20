@@ -4,7 +4,7 @@ build-backend = "hatchling.build"
 
 [project]
 name = "quantum-trade-utilities"
-version = "0.1.5"
+version = "0.1.7"
 authors = [
     { name="Jonathan Poeder", email="jaoeder@gmail.com" },
 ]
