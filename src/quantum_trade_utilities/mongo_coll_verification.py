@@ -3,7 +3,7 @@ Verify the existence of a MongoDB collection and create it if it doesn't exist.
 """
 
 from pymongo.errors import OperationFailure
-from hendricks._utils.mongo_conn import mongo_conn
+from quantum_trade_utilities.mongo_conn import mongo_conn
 
 
 def confirm_mongo_collect_exists(collection_name, mongo_db):

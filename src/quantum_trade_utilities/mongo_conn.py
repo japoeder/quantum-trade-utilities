@@ -4,9 +4,9 @@ MongoDB connection utility for Gilfoyle.
 
 from dotenv import load_dotenv
 from pymongo import MongoClient
-from hendricks._utils.load_credentials import load_credentials
-from hendricks._utils.get_path import get_path
-from hendricks._utils.detect_os import detect_os
+from quantum_trade_utilities.load_credentials import load_credentials
+from quantum_trade_utilities.get_path import get_path
+from quantum_trade_utilities.detect_os import detect_os
 
 load_dotenv()
 
