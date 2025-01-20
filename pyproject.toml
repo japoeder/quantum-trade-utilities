@@ -4,7 +4,7 @@ build-backend = "hatchling.build"
 
 [project]
 name = "quantum-trade-utilities"
-version = "0.1.0"
+version = "0.1.1"
 authors = [
     { name="Jonathan Poeder", email="jaoeder@gmail.com" },
 ]
@@ -18,38 +18,38 @@ classifiers = [
 ]
 dependencies = [
     # List your dependencies here
-    numpy
-    pandas
-    pre-commit
-    pylint
-    pybrowsers
-    flatten_json
-    flask
-    boto3
-    python-dotenv
-    requests
-    alpaca_trade_api
-    pymongo
-    ipython
-    ipykernel
-    ipywidgets
-    ipympl
-    pytz
-    alpaca-py
-    debugpy
-    transformers
-    torch
-    torchvision
-    torchaudio
-    websockets
-    gunicorn
-    easygui
-    bs4
-    selenium
-    tweepy
-    requests
-    zenrows
-    proxies
+    "numpy",
+    "pandas",
+    "pre-commit",
+    "pylint",
+    "pybrowsers",
+    "flatten_json",
+    "flask",
+    "boto3",
+    "python-dotenv",
+    "requests",
+    "alpaca_trade_api",
+    "pymongo",
+    "ipython",
+    "ipykernel",
+    "ipywidgets",
+    "ipympl",
+    "pytz",
+    "alpaca-py",
+    "debugpy",
+    "transformers",
+    "torch",
+    "torchvision",
+    "torchaudio",
+    "websockets",
+    "gunicorn",
+    "easygui",
+    "bs4",
+    "selenium",
+    "tweepy",
+    "requests",
+    "zenrows",
+    "proxies",
 ]
 
 [project.urls]
