@@ -14,6 +14,8 @@ elif torch.cuda.is_available():
 else:
     device = "cpu"
 
+device = "cpu"
+
 # model="cardiffnlp/twitter-roberta-base-sentiment"
 model = "ProsusAI/finbert"
 
