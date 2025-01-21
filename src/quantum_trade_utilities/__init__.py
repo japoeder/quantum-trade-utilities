@@ -10,7 +10,6 @@ from quantum_trade_utilities.data.load_credentials import load_credentials
 from quantum_trade_utilities.data.request_url_constructor import request_url_constructor
 
 from quantum_trade_utilities.analysis.backtest_summary import backtest_summary
-from quantum_trade_utilities.analysis.finbert_utils import estimate_sentiment
 from quantum_trade_utilities.analysis.exch_list import pull_exch_list
 from quantum_trade_utilities.io.grab_html import grab_html
 from quantum_trade_utilities.io.delete_logs import delete_logs
@@ -32,7 +31,7 @@ __all__ = [
     "load_credentials", "request_url_constructor",
     
     # Analysis
-    "backtest_summary", "estimate_sentiment", "pull_exch_list",
+    "backtest_summary", "pull_exch_list",
     
     # IO
     "grab_html", "delete_logs", "setup_logging",
