@@ -16,6 +16,8 @@ def get_path(path_label: str):
         return os.getenv("APP_PATH_" + detect_os()) + "/_cred/creds.json"
     elif path_label == "job_ctrl":
         return os.getenv("APP_PATH_" + detect_os()) + "/_job_ctrl/load_ctrl.json"
+    elif path_label == "bacman_rag":
+        return os.getenv("APP_PATH_" + detect_os()) + "/_llm_cfg/bacman_rag.json"
     elif path_label == "log":
         return os.getenv("PROJ_PATH_" + detect_os()) + "/app.log"
     elif path_label == "env":
