@@ -2,9 +2,7 @@
 Get the path for a given label.
 """
 import os
-import dotenv
 
-dotenv.load_dotenv()
 from quantum_trade_utilities.core.detect_os import detect_os
 
 
