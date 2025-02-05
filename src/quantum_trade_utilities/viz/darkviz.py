@@ -13,7 +13,7 @@ dark_style = {
     'axes.spines.top': False,
     'axes.spines.bottom': False,
     'grid.color': '#FFFFFF',  # Change grid color to white for better contrast
-    'grid.linewidth': '0.1',   # Optionally adjust the grid line width
+    'grid.linewidth': '0.05',   # Optionally adjust the grid line width
     'text.color': '0.9',
     'axes.labelcolor': '0.9',
     'xtick.color': '0.9',
