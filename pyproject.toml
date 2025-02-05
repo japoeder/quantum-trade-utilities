@@ -31,6 +31,11 @@ dev = [
     "pylint",
     "pytest",
 ]
+test = [
+    "pytest",
+    "pytest-cov",
+    "coverage",
+]
 
 [project.urls]
 "Homepage" = "https://github.com/japoeder/quantum-trade-utilities"

@@ -7,10 +7,10 @@ clean:
 	find . -type d -name __pycache__ -exec rm -rf {} +
 
 install-dev:
-	uv pip install -e ".[coverage]"
+	uv pip install -e ".[test]"
 
 coverage:
-	pytest --cov=quantum_trade_utilities tests/
+	pytest --cov=quantum_trade_utilities tests/ -v
 
 build:
 	python -m build
