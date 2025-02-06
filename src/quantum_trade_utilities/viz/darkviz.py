@@ -19,8 +19,7 @@ dark_style = {
     'xtick.color': '0.9',
     'ytick.color': '0.9',
     'font.size': 12,
-    'xtick.rotation': 45,
-    'ytick.rotation': 0,
 }
 plt.rcParams.update(dark_style)
+plt.xticks(rotation=45)
 print(f'Preferred darkviz plot colors: "fuchsia" and "lime"')
