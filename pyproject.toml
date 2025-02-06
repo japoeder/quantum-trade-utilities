@@ -4,13 +4,13 @@ build-backend = "hatchling.build"
 
 [project]
 name = "quantum-trade-utilities"
-version = "0.1.20"
+version = "0.1.21"
 authors = [
     { name="Jonathan Poeder", email="jaoeder@gmail.com" },
 ]
 description = "Shared utilities for Quantum Trade"
 readme = "README.md"
-requires-python = ">=3.11"
+requires-python = ">=3.10"
 classifiers = [
     "Programming Language :: Python :: 3",
     "License :: OSI Approved :: MIT License",
