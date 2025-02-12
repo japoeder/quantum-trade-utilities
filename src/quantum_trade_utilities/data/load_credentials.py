@@ -132,10 +132,10 @@ def load_credentials(file_path, data_type):
             qdrant_creds["QDRANT_PORT"],
         )
     
-    if data_type == "vllm_api":
+    if data_type == "vllm_ds":
         with open(file_path, "r", encoding="utf-8") as file:
             creds = json.load(file)
-        vllm_creds = creds["vllm_api"]
+        vllm_creds = creds["vllm_ds"]
         return (
             vllm_creds["VLLM_HOST"],
             vllm_creds["VLLM_PORT"],
