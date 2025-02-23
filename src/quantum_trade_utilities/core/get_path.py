@@ -20,5 +20,7 @@ def get_path(path_label: str):
         return os.getenv("PROJ_PATH_" + detect_os()) + "/app.log"
     elif path_label == "env":
         return os.getenv("PROJ_PATH_" + detect_os()) + "/.env"
+    elif path_label == "doc_workspace":
+        return os.getenv("APP_PATH_" + detect_os()) + "/doc_workspace"
     else:
         return False
